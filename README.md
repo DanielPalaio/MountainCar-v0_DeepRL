@@ -137,12 +137,12 @@ Average reward of -110.0 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 1500 |
+| Number of episodes | 1400 |
 | Learning rate  | 0.001 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 64 |
-| TargetNet update rate (steps) | 100 |
+| TargetNet update rate (steps) | 150 |
 | Actions (MountainCar-v0 env) | 3 |
 | States (MountainCar-v0 env) | 2 |
 
