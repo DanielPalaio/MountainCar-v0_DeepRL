@@ -34,7 +34,7 @@ Regarding testing, if you choose to load the .h5 model, a 5 episode training is 
 Scalar value (-1) for every step taken
 
 **Episode termination:**<br />
-Car reaches position 0.5, or if 200 iterations are reached
+Car reaches position 0.5  
 Episode length is greater than 200
 
 **Solved Requirement:**<br />
