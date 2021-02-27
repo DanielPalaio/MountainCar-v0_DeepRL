@@ -81,7 +81,7 @@ Average reward of -110.0 over 100 consecutive trials
   <img src="https://user-images.githubusercontent.com/79323290/109238403-631f6380-77cb-11eb-9428-2e924dfbf532.gif" width="400" height="250"/>
 </p>
 
-> **Network model used for testing:** 'saved_networks/dqn_model10' ('tf' model, also available in .h5)  
+> **Network model used for testing:** 'saved_networks/dqn_model20' ('tf' model, also available in .h5)  
 
 # Dueling DQN
 <p align="center">
@@ -121,7 +121,6 @@ Average reward of -110.0 over 100 consecutive trials
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79323290/109310276-38b9be80-783c-11eb-86a4-c3de0a222112.gif" width="400" height="250" />
-  <img src="https://user-images.githubusercontent.com/79323290/109310670-bed60500-783c-11eb-8b33-f9d2024fed0a.gif" width="400" height="250" />
 </p>
 
 > **Network model used for testing:** 'saved_networks/duelingdqn_model20' ('tf' model, also available in .h5)  
@@ -164,7 +163,6 @@ Average reward of -110.0 over 100 consecutive trials
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79323290/109310287-3c4d4580-783c-11eb-84e5-75cc45f582f6.gif" width="400" height="250" />
-  <img src="https://user-images.githubusercontent.com/79323290/109311042-31df7b80-783d-11eb-9d45-c8bea3401b0c.gif" width="400" height="250" />
 </p>
 
 > **Network model used for testing:** 'saved_networks/d3qn_model10' ('tf' model, also available in .h5)  
