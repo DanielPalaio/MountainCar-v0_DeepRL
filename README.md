@@ -121,6 +121,7 @@ Average reward of -110.0 over 100 consecutive trials
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79323290/109392672-5ad33f80-7915-11eb-81e8-f24c04f80f01.gif" width="400" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109392994-47c16f00-7917-11eb-86cd-cd1d69ecba95.gif" width="400" height="250" />
 </p>
 
 > **Network model used for testing:** 'saved_networks/duelingdqn_model172' ('tf' model, also available in .h5)  
