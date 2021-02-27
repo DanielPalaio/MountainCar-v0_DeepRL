@@ -164,6 +164,7 @@ Average reward of -110.0 over 100 consecutive trials
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79323290/109392674-5b6bd600-7915-11eb-80ff-1c7152beeb0c.gif" width="400" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109393685-15197580-791b-11eb-86ec-fb315f90467b.gif" width="400" height="250" />
 </p>
 
 > **Network model used for testing:** 'saved_networks/d3qn_model300' ('tf' model, also available in .h5)  
