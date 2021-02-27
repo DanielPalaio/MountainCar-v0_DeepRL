@@ -72,8 +72,8 @@ Average reward of -110.0 over 100 consecutive trials
 </td></tr> </table>
 
 <p align="center">
-  <img src="DQN/CartPole_Train.png" width="400" height="250" />
-  <img src="DQN/CartPole_Test.png" width="400" height="250"/>
+  <img src="DQN/MountainCar_Train.png" width="400" height="250" />
+  <img src="DQN/MountainCar_Test.png" width="400" height="250"/>
 </p>
 
 <p align="center">
