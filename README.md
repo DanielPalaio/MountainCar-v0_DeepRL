@@ -20,27 +20,25 @@ The training generates a [.txt file](DQN/saved_networks.txt) that tracks the sav
 
 Regarding testing, if you choose to load the .h5 model, a 5 episode training is done to initialize/build the keras.model network. Thus, the warnings above mentioned are also appliable to this situation. Loading the saved model in 'tf' is the recommended option. After finishing the testing, an overview image (graph) of the training procedure is also generated.
 
-# OpenAI CartPole-v0
+# OpenAI MountainCar-v0
 **Actions:**<br />
-0 - Push cart to the left    
-1 - Push cart to the right
+0 - Push car to the left    
+1 - No action
+2 - Push car to the right
 
 **States:**<br />
-0 - Cart position  
-1 - Cart velocity  
-2 - Pole angle  
-3 - Pole velocity at tip
+0 - Car position  
+1 - Car velocity  
 
 **Rewards:**<br />
-Scalar value (1) for every step taken
+Scalar value (-1) for every step taken
 
 **Episode termination:**<br />
-Pole angle is more than ±12°  
-Cart position is more than ±2.4 (center of the cart reaches the edge of the display)  
-Episode length is greater than 200  
+Car reaches position 0.5, or if 200 iterations are reached
+Episode length is greater than 200
 
 **Solved Requirement:**<br />
-Average reward of 195.0 over 100 consecutive trials
+Average reward of -110.0 over 100 consecutive trials
 
 # Deep Q-Network (DQN)
 <p align="center">
@@ -53,14 +51,14 @@ Average reward of 195.0 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 400 |
+| Number of episodes | 1500 |
 | Learning rate  | 0.001 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 64 |
 | TargetNet update rate (steps) | 100 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td><td>
 
@@ -68,8 +66,8 @@ Average reward of 195.0 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td></tr> </table>
 
@@ -96,14 +94,14 @@ Average reward of 195.0 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 400 |
-| Learning rate  | 0.00075 |
+| Number of episodes | 1500 |
+| Learning rate  | 0.001 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 64 |
-| TargetNet update rate (steps) | 120 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| TargetNet update rate (steps) | 100 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td><td>
 
@@ -111,8 +109,8 @@ Average reward of 195.0 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td></tr> </table>
 
@@ -139,14 +137,14 @@ Average reward of 195.0 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 400 |
-| Learning rate  | 0.00075 |
+| Number of episodes | 1500 |
+| Learning rate  | 0.001 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 64 |
-| TargetNet update rate (steps) | 120 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| TargetNet update rate (steps) | 100 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td><td>
 
@@ -154,8 +152,8 @@ Average reward of 195.0 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (CartPole-v0 env) | 2 |
-| States (CartPole-v0 env) | 4 |
+| Actions (MountainCar-v0 env) | 3 |
+| States (MountainCar-v0 env) | 2 |
 
 </td></tr> </table>
 
