@@ -23,7 +23,7 @@ Regarding testing, if you choose to load the .h5 model, a 5 episode training is 
 # OpenAI MountainCar-v0
 **Actions:**<br />
 0 - Push car to the left    
-1 - No action
+1 - No action  
 2 - Push car to the right
 
 **States:**<br />
