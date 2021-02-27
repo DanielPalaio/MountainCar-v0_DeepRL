@@ -94,12 +94,12 @@ Average reward of -110.0 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 1500 |
-| Learning rate  | 0.001 |
+| Number of episodes | 1250 |
+| Learning rate  | 0.00075 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 64 |
-| TargetNet update rate (steps) | 100 |
+| TargetNet update rate (steps) | 120 |
 | Actions (MountainCar-v0 env) | 3 |
 | States (MountainCar-v0 env) | 2 |
 
@@ -123,7 +123,7 @@ Average reward of -110.0 over 100 consecutive trials
   <img src="https://user-images.githubusercontent.com/79323290/109392672-5ad33f80-7915-11eb-81e8-f24c04f80f01.gif" width="400" height="250" />
 </p>
 
-> **Network model used for testing:** 'saved_networks/duelingdqn_model20' ('tf' model, also available in .h5)  
+> **Network model used for testing:** 'saved_networks/duelingdqn_model172' ('tf' model, also available in .h5)  
 
 # Dueling Double DQN (D3QN)
 <p align="center">
