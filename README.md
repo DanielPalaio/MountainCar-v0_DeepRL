@@ -158,12 +158,12 @@ Average reward of -110.0 over 100 consecutive trials
 </td></tr> </table>
 
 <p align="center">
-  <img src="D3QN/CartPole_Train.png" width="400" height="250" />
-  <img src="D3QN/CartPole_Test.png" width="400" height="250"/>
+  <img src="D3QN/MountainCar_Train.png" width="400" height="250" />
+  <img src="D3QN/MountainCar_Test.png" width="400" height="250"/>
 </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79323290/109392674-5b6bd600-7915-11eb-80ff-1c7152beeb0c.gif" width="400" height="250" />
 </p>
 
-> **Network model used for testing:** 'saved_networks/d3qn_model10' ('tf' model, also available in .h5)  
+> **Network model used for testing:** 'saved_networks/d3qn_model300' ('tf' model, also available in .h5)  
