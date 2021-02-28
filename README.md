@@ -38,8 +38,8 @@ Loading the saved model in 'tf' is the recommended option. After finishing the t
 Scalar value (-1) for every step taken
 
 **Episode termination:**<br />
-Car reaches position 0.5  
-Episode length is greater than 200
+Car position (State 0) == 0.5  
+Episode length > 200
 
 **Solved Requirement:**<br />
 Average reward of -110.0 over 100 consecutive trials
