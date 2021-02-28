@@ -1,5 +1,7 @@
 # OpenAI MountainCar-v0 DeepRL-based solutions
-Using Deep Q-Network (DQN), Dueling DQN, and Dueling Double DQN (D3QN)
+Using Deep Q-Network (DQN), Dueling DQN, and Dueling Double DQN (D3QN)  
+
+Investigation under the development of the master thesis "DeepRL-based Motion Planning for Indoor Mobile Robot Navigation" @ Institute of Systems and Robotics - University of Coimbra (ISR-UC)  
 
 # Software/Requirements
 Module | Software/Hardware
@@ -44,7 +46,7 @@ Average reward of -110.0 over 100 consecutive trials
 
 # Deep Q-Network (DQN)
 <p align="center">
-  <img width="950" height="500" src="https://user-images.githubusercontent.com/79323290/109340337-cb6c5480-7860-11eb-9411-42b8e0d5941d.png">
+  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109340337-cb6c5480-7860-11eb-9411-42b8e0d5941d.png">
 </p>
 
 <table>
@@ -87,7 +89,7 @@ Average reward of -110.0 over 100 consecutive trials
 
 # Dueling DQN
 <p align="center">
-  <img width="950" height="500" src="https://user-images.githubusercontent.com/79323290/109340340-cc9d8180-7860-11eb-9011-1ea05ef7fc75.png">
+  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109340340-cc9d8180-7860-11eb-9011-1ea05ef7fc75.png">
 </p>
 
 <table>
@@ -130,7 +132,7 @@ Average reward of -110.0 over 100 consecutive trials
 
 # Dueling Double DQN (D3QN)
 <p align="center">
-  <img width="950" height="500" src="https://user-images.githubusercontent.com/79323290/109341984-1e470b80-7863-11eb-9c5b-33a967d6bdd9.png">
+  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109341984-1e470b80-7863-11eb-9c5b-33a967d6bdd9.png">
 </p>
 
 <table>
